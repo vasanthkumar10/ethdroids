@@ -1,0 +1,32 @@
+.discord-btn {
+  color: white;
+  background-color: #251031;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 12px;
+  min-width: 180px;
+  min-height: 30px;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width: 640px) {
+  .discord-btn {
+    color: white;
+    background-color: #251031;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 14px;
+    min-width: 265px;
+    min-height: 50px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+}

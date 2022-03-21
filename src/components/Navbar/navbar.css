@@ -1,0 +1,72 @@
+.navbar-wrapper-desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(226, 226, 226);
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.navbar-wrapper-desktop img {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navbar-items-desktop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 520px;
+}
+
+.navbar-items-desktop li,
+a {
+  list-style-type: none;
+  font-size: 13px;
+  cursor: pointer;
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+}
+
+.navbar-wrapper-desktop li:hover,
+a:hover {
+  color: #e4cb86;
+}
+
+.icon {
+  font-size: 18px;
+  color: rgb(226, 226, 226);
+}
+
+/* mobile properties */
+.navbar-wrapper-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #444;
+  font-weight: 600;
+  padding: 25px 0 0 20px;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  margin-right: 25px;
+}
+
+.navbar-btn {
+  background-color: #e4cb86;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.ant-drawer-body li {
+  list-style-type: none;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 20px 10px;
+}

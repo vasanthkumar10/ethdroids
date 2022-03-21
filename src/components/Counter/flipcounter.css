@@ -1,0 +1,52 @@
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
+  color: rgb(226, 226, 226);
+  font-size: 12px;
+}
+
+.flip-countdown-card {
+  margin-top: 10px;
+}
+
+.flip-countdown.size-small
+  .flip-countdown-piece
+  .flip-countdown-card
+  .flip-countdown-card-sec {
+  margin: 5px;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+@media screen and (min-width: 640px) {
+  .flip-countdown.size-medium {
+    min-width: 800px;
+  }
+  .flip-countdown.size-medium .flip-countdown-piece .flip-countdown-title {
+    color: rgb(226, 226, 226);
+    font-size: 14px;
+  }
+
+  .flip-countdown-card {
+    margin-top: 10px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .flip-countdown.size-medium
+    .flip-countdown-piece
+    .flip-countdown-card
+    .flip-countdown-card-sec {
+    margin: 5px;
+  }
+}
