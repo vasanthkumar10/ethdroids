@@ -51,3 +51,19 @@
     margin: 10px;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .player-card {
+    width: 500px;
+    height: 500px;
+  }
+
+  .player-name {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .player-title {
+    font-size: 16px;
+  }
+}

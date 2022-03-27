@@ -30,3 +30,12 @@
     font-weight: 600;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .discord-btn {
+    font-size: 20px;
+    border-radius: 16px;
+    min-width: 365px;
+    min-height: 70px;
+  }
+}

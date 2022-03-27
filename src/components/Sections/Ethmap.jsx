@@ -1,6 +1,6 @@
 import React from "react";
 import EthmapCard from "../Cards/EthmapCard";
-import FullEthroid from "../../assets/full_ethdroid.png";
+import FullEthroid from "../../assets/full_ethdroid.webp";
 import "./sections.css";
 
 function Ethmap({ ethmapRef }) {

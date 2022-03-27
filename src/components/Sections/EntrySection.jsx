@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import DesktopNav from "../Navbar/DesktopNav";
 import MobileNav from "../Navbar/MobileNav";
 import DiscordBtn from "../Buttons/DiscordBtn";
@@ -6,6 +6,22 @@ import FlipCounter from "../Counter/FlipCounter";
 import "./sections.css";
 
 function EntrySection({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
+  const [time, setTime] = useState(new Date().getTime());
+  const [endTime, setEndTime] = useState(
+    new Date("2022-04-01 16:35:00").getTime()
+  );
+  const [isTimeOver, setIsTimeOver] = useState(false);
+
+  useEffect(() => {
+    let interval = setInterval(() => setTime(new Date().getTime()), 1000);
+    console.log(endTime, isTimeOver);
+    if (endTime - new Date().getTime() <= 0) {
+      setIsTimeOver(true);
+    }
+
+    return () => clearInterval(interval);
+  }, [time]);
+
   return (
     <section className="entry-section">
       <section className="desktop-nav">
@@ -27,7 +43,7 @@ function EntrySection({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
       <section className="minting-wrapper">
         <DiscordBtn text={"JOIN OUR DISCORD"} />
         <p className="mint-text">MINTING STARTS IN</p>
-        <FlipCounter />
+        {isTimeOver ? <p>Vasanth</p> : <FlipCounter />}
       </section>
     </section>
   );

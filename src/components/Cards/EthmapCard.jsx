@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/bullet-pointer.png";
+import Logo from "../../assets/bullet-pointer.webp";
 import "./cards.css";
 
 function EthmapCard({ title, content }) {

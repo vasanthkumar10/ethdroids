@@ -1,6 +1,6 @@
 import React from "react";
 import { InstagramOutlined, TwitterOutlined } from "@ant-design/icons";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.webp";
 import { DiscordIcon } from "../Icon/DiscordIcon";
 import "./navbar.css";
 

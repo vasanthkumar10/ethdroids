@@ -1,7 +1,7 @@
 import React from "react";
 import { InstagramOutlined, TwitterOutlined } from "@ant-design/icons";
 import { DiscordIcon } from "../Icon/DiscordIcon";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.webp";
 
 function Footer({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
   return (

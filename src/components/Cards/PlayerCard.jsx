@@ -4,7 +4,7 @@ import "./cards.css";
 
 function PlayerCard({ img, name, title }) {
   return (
-    <ScrollAnimation initiallyVisible={true} animateIn="bounce" delay={1000}>
+    <ScrollAnimation initiallyVisible={true} animateIn="bounce">
       <div className="player-card">
         <img width={400} height={400} src={img} alt="player-card" />
         <p className="player-name">

@@ -1,11 +1,11 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Cimg5 from "../../assets/carousal_5.png";
-import Cimg6 from "../../assets/carousal_6.png";
-import Cimg8 from "../../assets/carousal_8.png";
-import Cimg9 from "../../assets/carousal_9.png";
-import Cimg10 from "../../assets/carousal_10.png";
+import Cimg5 from "../../assets/carousal_5.webp";
+import Cimg6 from "../../assets/carousal_6.webp";
+import Cimg8 from "../../assets/carousal_8.webp";
+import Cimg9 from "../../assets/carousal_9.webp";
+import Cimg10 from "../../assets/carousal_10.webp";
 import "./carousal.css";
 
 function ImgCarousel() {
@@ -14,7 +14,7 @@ function ImgCarousel() {
     <div className="carousal-wrapper">
       <Carousel
         autoPlay={true}
-        interval={2000}
+        interval={800}
         infiniteLoop={true}
         showThumbs={false}
         showStatus={false}

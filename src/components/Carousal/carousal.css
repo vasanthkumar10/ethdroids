@@ -1,6 +1,6 @@
 .carousal-wrapper {
-  width: auto;
-  height: auto;
+  min-width: 40vw;
+  min-height: 40vh;
   cursor: grab;
 }
 
@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 640px) {
   .carousal-wrapper img {
-    height: 75vh;
-    width: 30vw;
+    max-height: 75vh;
+    max-width: 30vw;
   }
 }
