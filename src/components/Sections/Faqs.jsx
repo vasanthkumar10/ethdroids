@@ -27,7 +27,7 @@ function Faqs({ faqRef }) {
             </p>
           </Panel>
           <Panel header="When is the Launch date?" key="2">
-            <p>11:00 am UTC, 1 April 2022</p>
+            <p>11:00 am UTC, 10 April 2022</p>
           </Panel>
           <Panel header="What is the Supply and mint price?" key="3">
             <p>

@@ -29,6 +29,7 @@ function Team({ teamRef }) {
       img: Cimg2,
       name: "CASUAL CRUSADER",
       title: "International Community and Social Media Head",
+      height: '350px'
     },
     {
       img: Cimg4,
@@ -40,12 +41,12 @@ function Team({ teamRef }) {
     <div ref={teamRef} className="team-wrapper">
       <p className="team-title">TEAM ETHDROID</p>
       <div className="team-cards">
-        {playerCards.map(({ img, name, title }) => (
+        {playerCards.map(({ img, name, title, height }) => (
           <AnimationOnScroll
             animatePreScroll={true}
             animateIn="animate__fadeInLeftBig"
           >
-            <PlayerCard img={img} name={name} title={title} />
+            <PlayerCard img={img} name={name} title={title} height={height}  />
           </AnimationOnScroll>
         ))}
       </div>
