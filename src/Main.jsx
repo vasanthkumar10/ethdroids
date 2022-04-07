@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./App.css";
+import "./Main.css";
 import EntrySection from "./components/Sections/EntrySection";
 import IntroSection from "./components/Sections/IntroSection";
 import Ethmap from "./components/Sections/Ethmap";
@@ -8,7 +8,7 @@ import Team from "./components/Sections/Team";
 import Faqs from "./components/Sections/Faqs";
 import Footer from "./components/Sections/Footer";
 
-function App() {
+function Main() {
   const loreRef = useRef(null);
   const ethmapRef = useRef(null);
   const teamRef = useRef(null);
@@ -45,4 +45,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;

@@ -22,7 +22,13 @@ function MobileNav({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
   return (
     <div className="navbar-wrapper-mobile">
       <div className="navbar-header">
-        <img alt="logo" width={100} height={45} src={Logo} />
+        <div>
+          <img alt="logo" width={100} height={45} src={Logo} />
+          <div className="presale" style={{ marginLeft: "8%" }}>
+            <h2 style={{ color: "white", fontSize: "16px" }}>PRE SALE</h2>
+            <h2 style={{ color: "white", fontSize: "16px" }}>APRIL 8th 11:00 am UTC</h2>
+          </div>
+        </div>
         <button className="navbar-btn" onClick={showDrawer}>
           <MenuOutlined />
         </button>

@@ -7,7 +7,13 @@ import "./navbar.css";
 function DesktopNav({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
   return (
     <div className="navbar-wrapper-desktop">
-      <img alt="logo" width={284} height={95} src={Logo} />
+      <div style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
+        <img alt="logo" width={284} height={95} src={Logo} />
+        <div className="presale" style={{marginLeft:"15%"}}>
+          <h2 style={{ color: "white" }}>PRE SALE</h2>
+          <h2 style={{ color: "white" }}>APRIL 8th 11:00 am UTC</h2>
+        </div>
+      </div>
       <div className="navbar-items-desktop">
         <li onClick={loreScroll} key={"lore"}>
           LORE

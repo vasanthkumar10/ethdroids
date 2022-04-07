@@ -1,14 +1,18 @@
 import React, {useState} from "react";
 import { mint, mintHero, connect } from '../../mint'
+import { Link } from "react-router-dom";
 
 function FinalView(params) {
     const [isViewVisible, setIsViewVisible] = useState(false)
   return (
     <div className="final-view-wrapper">
-          {!isViewVisible && <button id="connect" style={{color: "black"}} onClick={async () => {
-              const result =  await connect()
-              setIsViewVisible(result)
-          }}>connect to wallet</button> }
+          {!isViewVisible && 
+            // <button id="connect" style={{color: "black"}} onClick={async () => {
+            //     const result =  await connect()
+            //     setIsViewVisible(result)
+            // }}>connect to wallet</button>
+            <Link to="/wallet">MINT NOW</Link> 
+          }
           <p id="status"></p>
     {isViewVisible && <div className="final-view" style={{display: "flex"}}>
       <div style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
