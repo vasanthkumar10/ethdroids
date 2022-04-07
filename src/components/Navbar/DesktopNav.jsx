@@ -4,15 +4,15 @@ import Logo from "../../assets/logo.webp";
 import { DiscordIcon } from "../Icon/DiscordIcon";
 import "./navbar.css";
 
-function DesktopNav({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
+function DesktopNav({ loreScroll, ethmapScroll, teamScroll, faqScroll, isTimeOver }) {
   return (
     <div className="navbar-wrapper-desktop">
       <div style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
         <img alt="logo" width={284} height={95} src={Logo} />
-        <div className="presale" style={{marginLeft:"15%"}}>
+        {!isTimeOver && <div className="presale" style={{marginLeft:"15%"}}>
           <h2 style={{ color: "white" }}>PRE SALE</h2>
           <h2 style={{ color: "white" }}>APRIL 8th 11:00 am UTC</h2>
-        </div>
+        </div>}
       </div>
       <div className="navbar-items-desktop">
         <li onClick={loreScroll} key={"lore"}>

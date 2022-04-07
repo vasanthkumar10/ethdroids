@@ -189,6 +189,70 @@
   border-bottom: 0px;
 }
 
+.wallet {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../assets/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.txt-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 40%;
+  height: 100vh;
+}
+
+.txt-img {
+  width: 80%;
+  height: 50%;
+}
+
+.txt-img-2 {
+  height: 30%;
+}
+
+.mint-img {
+  width: 80%;
+  height: 100vh;
+}
+
+.wallet-btn, .wallet-btn-link {
+    height: auto;
+    width: auto;
+    min-width: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: burlywood;
+    font-weight: 700;
+    color: #444;
+}
+
+.wallet-btn-link:hover {
+  color: #000;
+}
+
+.wallet-input {
+  height: auto;
+  width: auto;
+  min-width: 80px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  background: #f8f8f8;
+  font-weight: 700;
+  color: #444;
+}
+
+
 @media screen and (min-width: 640px) {
   .entry-section {
     height: 100vh;

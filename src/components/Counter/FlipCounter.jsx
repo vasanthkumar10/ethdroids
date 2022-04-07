@@ -14,7 +14,7 @@ function FlipCounter() {
           minuteTitle="Minutes"
           secondTitle="Seconds"
           size={"small"}
-          endAt={"2022-04-10 16:30:00"} // Date/Time
+          endAt={"2022-04-08 16:30:00"} // Date/Time
         />
       </span>
       <span className="desktop">
@@ -26,7 +26,7 @@ function FlipCounter() {
           minuteTitle="Minutes"
           secondTitle="Seconds"
           size={"medium"}
-          endAt={"2022-04-10 16:30:00"} // Date/Time
+          endAt={"2022-04-08 16:30:00"} // Date/Time
         />
       </span>
     </>

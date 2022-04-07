@@ -9,7 +9,7 @@ import Logo from "../../assets/logo.webp";
 import { DiscordIcon } from "../Icon/DiscordIcon";
 import "./navbar.css";
 
-function MobileNav({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
+function MobileNav({ loreScroll, ethmapScroll, teamScroll, faqScroll, isTimeOver }) {
   const [visible, setVisible] = useState(false);
 
   const showDrawer = () => {
@@ -24,10 +24,10 @@ function MobileNav({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
       <div className="navbar-header">
         <div>
           <img alt="logo" width={100} height={45} src={Logo} />
-          <div className="presale" style={{ marginLeft: "8%" }}>
+          {!isTimeOver && <div className="presale" style={{ marginLeft: "8%" }}>
             <h2 style={{ color: "white", fontSize: "16px" }}>PRE SALE</h2>
             <h2 style={{ color: "white", fontSize: "16px" }}>APRIL 8th 11:00 am UTC</h2>
-          </div>
+          </div>}
         </div>
         <button className="navbar-btn" onClick={showDrawer}>
           <MenuOutlined />
