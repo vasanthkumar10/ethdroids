@@ -165,7 +165,7 @@ export async function mintHero(resolve, reject) {
         .mintHero(number)
         .send({
           from: account_global,
-          value: 99000000000000000 * parseInt(number, 10),
+          value: 450000000000000000 * parseInt(number, 10),
         })
         .then((txHash) => {
           resolve(

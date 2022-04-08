@@ -9,7 +9,7 @@ function DesktopNav({ loreScroll, ethmapScroll, teamScroll, faqScroll, isTimeOve
     <div className="navbar-wrapper-desktop">
       <div style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
         <img alt="logo" width={284} height={95} src={Logo} />
-        {!isTimeOver && <div className="presale" style={{marginLeft:"15%"}}>
+        {!isTimeOver && <div className="presale" style={{marginLeft:"15%", position:"absolute", top:"15%", left:"2%"}}>
           <h2 style={{ color: "white" }}>PRE SALE</h2>
           <h2 style={{ color: "white" }}>APRIL 8th 11:00 am UTC</h2>
         </div>}
