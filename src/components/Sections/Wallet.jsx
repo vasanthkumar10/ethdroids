@@ -83,11 +83,8 @@ function Wallet(params) {
           {isAuthenticated && (
             <>
               <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-evenly",
-                  alignItems: "center",
-                }}
+                className="wallet-input-wrappper"
+                
               >
                 <div
                   style={{

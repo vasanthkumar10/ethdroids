@@ -9,7 +9,7 @@ import "./sections.css";
 function EntrySection({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
   const [time, setTime] = useState(new Date().getTime());
   const [endTime, setEndTime] = useState(
-    new Date("2022-04-08 16:30:00").getTime()
+    new Date("2022-04-08 15:30:00").getTime()
   );
   const [isTimeOver, setIsTimeOver] = useState(false);
 
