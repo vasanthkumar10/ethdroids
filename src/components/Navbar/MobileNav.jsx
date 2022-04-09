@@ -24,7 +24,7 @@ function MobileNav({ loreScroll, ethmapScroll, teamScroll, faqScroll, isTimeOver
       <div className="navbar-header">
         <div>
           <img alt="logo" width={100} height={45} src={Logo} />
-          {!isTimeOver && <div className="presale" style={{ marginLeft: "8%" }}>
+          {false && <div className="presale" style={{ marginLeft: "8%" }}>
             <h2 style={{ color: "white", fontSize: "16px" }}>PRE SALE</h2>
             <h2 style={{ color: "white", fontSize: "16px" }}>APRIL 8th 11:00 am UTC</h2>
           </div>}

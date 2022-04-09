@@ -6,6 +6,15 @@
   min-height: 60vh;
 }
 
+.status {
+    margin: 10px;
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
 .minting-wrapper {
   display: flex;
   flex-direction: column;
@@ -266,7 +275,12 @@ align-items: center;
     background-size: cover;
     font-weight: 600;
   }
-
+  .status  {
+    margin: 50px;
+    color: red;
+    font-size: 16px;
+    position: inherit;
+}
   .wallet-input-wrappper {
     display: flex;
     flex-direction: row;

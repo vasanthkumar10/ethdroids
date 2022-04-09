@@ -132,7 +132,7 @@ function Wallet(params) {
                 </div>
               </div>
               {status !== "" && (
-                <p style={{ margin: "10px", color: "red", fontSize: "16px" }}>
+                <p className="status">
                   {status}
                 </p>
               )}
