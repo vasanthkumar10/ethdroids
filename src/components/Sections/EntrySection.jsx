@@ -44,8 +44,8 @@ function EntrySection({ loreScroll, ethmapScroll, teamScroll, faqScroll }) {
       </section>
       <section className="minting-wrapper">
         <DiscordBtn text={"JOIN OUR DISCORD"} />
-        {!isTimeOver && <p className="mint-text">PRE-SALE MINTING STARTS IN</p>}
-        {isTimeOver ? (
+        {false && <p className="mint-text">PRE-SALE MINTING STARTS IN</p>}
+        {true ? (
           <Link to="/wallet" style={{margin: "10px"}} className="wallet-btn-link">MINT NOW</Link>
         ) : <FlipCounter />}
       </section>
