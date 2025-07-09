@@ -1,6 +1,6 @@
-import React  from 'react';
-import { HashRouter, Routes, Route } from "react-router-dom";
-import Main from './Main'
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Main from './Main';
 import Wallet from './components/Sections/Wallet';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Route path="/*" element={<Main />} />
       </Routes>
     </HashRouter>
+    // commented
   );
 }
 
